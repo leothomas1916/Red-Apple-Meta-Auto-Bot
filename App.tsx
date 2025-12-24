@@ -15,7 +15,15 @@ const DEFAULT_CONFIG: BusinessConfig = {
   phoneNumber: "+91 86606 63776",
   // Constructed link using the CID from the embed code (0xf9ade41a529ebc08)
   location: "Bangalore, Karnataka 560001. Map: https://maps.google.com/?cid=17991440628290210824",
-  faqs: "- Turnaround: Most screen/battery replacements done in 30-60 mins.\n- Warranty: 90 days warranty on replaced parts.\n- Services: Display change, battery replacement, charging port repair, water damage fix."
+  faqs: `Common Repairs:
+- iPhone Screen Replacement: Starts from ₹1500 (approx 30 mins)
+- Android Battery Replacement: Starts from ₹800
+- Water Damage Service: Inspection charge ₹300 (deducted if repaired)
+
+Policies:
+- Warranty: 90 days on all screen and battery replacements.
+- Payment: Cash, UPI, and Cards accepted.
+- Data Privacy: We do not access user data during hardware repairs.`
 };
 
 const App: React.FC = () => {
