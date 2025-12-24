@@ -23,6 +23,7 @@ export interface BusinessConfig {
   phoneNumber: string;
   location: string;
   faqs: string;
+  followUpGoal: string;
 }
 
 export interface ChatMessage {

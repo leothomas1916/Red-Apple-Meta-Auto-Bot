@@ -13,8 +13,9 @@ const DEFAULT_CONFIG: BusinessConfig = {
   openingHours: "Mon-Sat: 10:30 AM - 8:30 PM, Sun: 11:00 AM - 5:00 PM",
   contactEmail: "service@redapplemobile.com",
   phoneNumber: "+91 86606 63776",
-  // Constructed link using the CID from the embed code (0xf9ade41a529ebc08)
-  location: "Bangalore, Karnataka 560001. Map: https://maps.google.com/?cid=17991440628290210824",
+  // Updated with the specific map link provided by user
+  location: "Bangalore, Karnataka 560001. Map: https://maps.app.goo.gl/cRXcLxL38rhmWjWs7",
+  followUpGoal: "Always ask for the customer's specific device model and the exact issue they are facing to provide a more accurate estimate.",
   faqs: `Common Repairs:
 - iPhone Screen Replacement: Starts from ₹1500 (approx 30 mins)
 - Android Battery Replacement: Starts from ₹800
